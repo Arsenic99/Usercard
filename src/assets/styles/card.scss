@@ -1,0 +1,147 @@
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    width: 300px;
+    padding: 50px;
+    margin: 20px 0;
+    .name__block, .email__block, .button__block{
+        display: flex;
+        justify-content: center;
+    }
+    .name__block{
+        margin-top: 25px;
+    }
+    .firstname, .lastname{
+        text-align: center;
+        display: inline-block;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .lastname{
+        margin-left: 5px;
+    }
+    .email{
+        text-align: center;
+        display: inline-block;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+        color: #000000;
+        text-decoration: none;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        display: block;
+        border-radius: 50%;
+    }
+    .button__block{
+        margin-top: 20px;
+        button{
+            background: #FFFFFF;
+            color: #1447FC;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-transform: capitalize;
+            padding: 14px 32px;
+            border: 1px solid #1447FC;
+            outline: none;
+            cursor: pointer;
+        }
+        button:hover{
+            color: #FFFFFF;
+            background: #1447FC;
+        }
+    }
+}
+@media screen and (max-width:1023px) {
+    .card{
+        background: #FFFFFF;
+        box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+        width: 250px;
+        padding: 25px;
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width:613px) {
+    .card{
+        border-radius: 40px;
+        width: 200px;
+        padding: 25px;
+        margin: 20px 0;
+        .name__block{
+            margin-top: 25px;
+        }
+        .firstname, .lastname{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .lastname{
+            margin-left: 5px;
+        }
+        .email{
+            font-size: 11px;
+            line-height: 16px;
+        }
+        img{
+            height: 150px;
+            width: 150px;
+            display: block;
+            border-radius: 50%;
+        }
+        .button__block{
+            margin-top: 20px;
+            button{
+                font-size: 16px;
+                line-height: 19px;
+                padding: 14px 32px;
+            }
+        }
+    }
+}
+@media screen and (max-width:511px) {
+    .card{
+        border-radius: 40px;
+        width: 300px;
+        padding: 50px;
+        margin: 20px 0;
+        .name__block{
+            margin-top: 25px;
+        }
+        .firstname, .lastname{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .lastname{
+            margin-left: 5px;
+        }
+        .email{
+            font-size: 11px;
+            line-height: 16px;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            display: block;
+            border-radius: 50%;
+        }
+        .button__block{
+            margin-top: 20px;
+            button{
+                font-size: 16px;
+                line-height: 19px;
+                padding: 14px 32px;
+            }
+        }
+    }
+}

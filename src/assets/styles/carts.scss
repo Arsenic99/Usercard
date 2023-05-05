@@ -1,0 +1,20 @@
+.carts{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    justify-content: space-between;
+}
+.css-wjh20t-MuiPagination-ul{
+    justify-content: center;
+}
+@media screen and (max-width:991px) {
+    .carts{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width:511px) {
+    .carts{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}

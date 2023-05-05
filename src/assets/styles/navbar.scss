@@ -1,0 +1,35 @@
+.nav {
+    width: 100%;
+    background: #1447FC;
+    height: 84px;
+    display: flex !important;
+    align-items: center;
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            color: #FFFFFF;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 47px;
+            text-transform: capitalize;
+        }
+
+        button {
+            background: #FFFFFF;
+            color: #1447FC;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-transform: capitalize;
+            padding: 14px 32px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
